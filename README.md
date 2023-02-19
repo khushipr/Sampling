@@ -68,7 +68,10 @@ In this method we have used a combination of sampling technique, i.e. cluster an
 | Gaussian Naive Bayes   |76.02          |75.00       |77.92       |66.95    |58.00        |
 | K-Nearest Neighbors    |98.12          |95.91       |92.20       |88.69    |86.00        |
 
-__
+## Discussion
+From the table, we can conclude that we achieve maximum accuracy when we apply Decision Tree Algorithm upon taking samples using the Simple Random Sampling technique. We get an accuracy of 99.62%.
+
+___
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
