@@ -21,19 +21,20 @@ A simple random sample is a subset of a statistical population in which each mem
 
 ![image](https://user-images.githubusercontent.com/72306997/219949613-305e70c5-37f5-4e5d-815e-92e1f4d31f5e.png)
 
-Z = 1.96 (for 95% confidence)
+```Z = 1.96 (for 95% confidence)
 
 p = 0.5
 
 E = 0.03 (assumed 3%)
 
-n = 1067
+n = 1067```
 
 2. Stratified Sampling
 Stratified sampling is a method of sampling that involves the division of a population into smaller subgroups known as strata.
 
 ![image](https://user-images.githubusercontent.com/72306997/219949629-2e744eff-ae24-4702-8899-83dba4ec9670.png)
-Z = 1.96 (for 95% confidence)
+
+```Z = 1.96 (for 95% confidence)
 
 p = 0.5
 
@@ -41,7 +42,7 @@ E = 0.07 (assumed 7%)
 
 S = 2
 
-n = 784 (392 for each class)
+n = 784 (392 for each class)```
 
 3. Systematic Sampling
 Systematic sampling is a probability sampling method where we select members of the population at a regular interval.
@@ -50,9 +51,9 @@ Samples taken on every 5th interval
 4. Cluster Sampling
 Cluster sampling is a probability sampling method in which we divide a population into clusters and then randomly select some of these clusters as sample.
 
-Rows per Cluster = 20 
+```Rows per Cluster = 20 
 
-Number of Clusters = 28 (sqrt(n/2) where n is the total number of rows)
+Number of Clusters = 28 (sqrt(n/2) where n is the total number of rows)```
 
 5. Multi-Stage Sampling
 In this method we have used a combination of sampling technique, i.e. cluster and simple random. The dataset is divided into clusters and then random samples are chosen from those clusters.
